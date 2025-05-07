@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brian Carpenter Driver Referalls</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body  class="gradient-background" onload="document.body.style.opacity='1'">
+    <nav>
+        <div class="logo">Logo</div>
+        <div class="nav-items">
+            <a href="./index.html">Home</a>
+            <a href="./about.html">About Me</a>
+            <a href="./referall.html">Referall</a>
+            <a href="./contact.html">Contact</a>
+        </div>
+    </nav>
+<section class="hero" class="gradient-background">
+    <div class="hero-container">
+        <div class="colum-left">
+            <h1 id="referall-h1">You are one step away!</h1>
+            <p id="p-pad">I want to help guide you to your new Truck Driving job!</p>            
+        </div>
+        <div class="colum-right">
+            <div class="container">
+                    <form onsubmit="emailSend(); reset(); return false;">
+                        <input type="text" id="first-name" placeholder="First name" name="first-name" required>
+                        <input type="text" id="last-name" placeholder="Last name" name="last-name" required>
+                        <input type="text" id="zip-code" placeholder="Zip-code" name="zip-code" required>
+                        <input type="email" id="email" placeholder="Email" name="email" required>
+                        <textarea id="message" 
+                          name="message" 
+                          placeholder="Hi Brian.  I am a responsible, dependable, enthusiastic, and safe truck driver!  I have 1+ years of experience as a class A driver.  I would like to talk about getting a Driver Referall! " 
+                          rows="5"></textarea>
+                        <button type="submit" class="button" class="msg">Send!</button>
+                    </form> 
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="Contact form to email.js"></script>
+</body>
+</html>
